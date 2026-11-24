@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "nome": "Felpa Grigia Donna",
+    "immagine": "Pictures/felpa_grigia_donna.jpg",
+    "colore": "Grigio",
+    "taglia": "M",
+    "sesso": "Donna",
+    "prezzo": 49.9,
+    "quantita": 5
+  },
+  {
+    "id": 2,
+    "nome": "Felpa Grigia Uomo",
+    "immagine": "Pictures/felpa_grigia_uomo.jpg",
+    "colore": "Grigio",
+    "taglia": "L",
+    "sesso": "Uomo",
+    "prezzo": 49.9,
+    "quantita": 3
+  },
+  {
+    "id": 3,
+    "nome": "Felpa Nera Donna",
+    "immagine": "Pictures/felpa_nera_donna.jpg",
+    "colore": "Nero",
+    "taglia": "M",
+    "sesso": "Donna",
+    "prezzo": 49.9,
+    "quantita": 0
+  },
+  {
+    "id": 4,
+    "nome": "Felpa Nera Uomo",
+    "immagine": "Pictures/felpa_nera_uomo.jpg",
+    "colore": "Nero",
+    "taglia": "L",
+    "sesso": "Uomo",
+    "prezzo": 49.9,
+    "quantita": 8
+  },
+  {
+    "id": 5,
+    "nome": "Jeans Donna Denim",
+    "immagine": "Pictures/jeans_donna_denim.jpg",
+    "colore": "Denim",
+    "taglia": "S",
+    "sesso": "Donna",
+    "prezzo": 59.9,
+    "quantita": 2
+  },
+  {
+    "id": 6,
+    "nome": "Jeans Donna Neri",
+    "immagine": "Pictures/jeans_donna_neri.jpg",
+    "colore": "Nero",
+    "taglia": "S",
+    "sesso": "Donna",
+    "prezzo": 59.9,
+    "quantita": 1
+  },
+  {
+    "id": 7,
+    "nome": "Jeans Uomo Denim",
+    "immagine": "Pictures/jeans_uomo_denim.jpg",
+    "colore": "Denim",
+    "taglia": "L",
+    "sesso": "Uomo",
+    "prezzo": 59.9,
+    "quantita": 6
+  },
+  {
+    "id": 8,
+    "nome": "Jeans Uomo Neri",
+    "immagine": "Pictures/jeans_uomo_neri.jpg",
+    "colore": "Nero",
+    "taglia": "L",
+    "sesso": "Uomo",
+    "prezzo": 59.9,
+    "quantita": 4
+  },
+  {
+    "id": 9,
+    "nome": "Maglietta Bianca Donna",
+    "immagine": "Pictures/maglietta_bianca_donna.jpg",
+    "colore": "Bianco",
+    "taglia": "S",
+    "sesso": "Donna",
+    "prezzo": 24.5,
+    "quantita": 12
+  },
+  {
+    "id": 10,
+    "nome": "Maglietta Bianca Uomo",
+    "immagine": "Pictures/maglietta_bianca_uomo.jpg",
+    "colore": "Bianco",
+    "taglia": "L",
+    "sesso": "Uomo",
+    "prezzo": 24.5,
+    "quantita": 9
+  },
+  {
+    "id": 11,
+    "nome": "Maglietta Grigia Donna",
+    "immagine": "Pictures/maglietta_grigia_donna.jpg",
+    "colore": "Grigio",
+    "taglia": "S",
+    "sesso": "Donna",
+    "prezzo": 24.5,
+    "quantita": 7
+  },
+  {
+    "id": 12,
+    "nome": "Maglietta Grigia Uomo",
+    "immagine": "Pictures/maglietta_grigia_uomo.jpg",
+    "colore": "Grigio",
+    "taglia": "L",
+    "sesso": "Uomo",
+    "prezzo": 24.5,
+    "quantita": 6
+  },
+  {
+    "id": 13,
+    "nome": "Maglietta Nera Donna",
+    "immagine": "Pictures/maglietta_nera_donna.jpg",
+    "colore": "Nero",
+    "taglia": "S",
+    "sesso": "Donna",
+    "prezzo": 24.5,
+    "quantita": 10
+  },
+  {
+    "id": 14,
+    "nome": "Maglietta Nera Uomo",
+    "immagine": "Pictures/maglietta_nera_uomo.jpg",
+    "colore": "Nero",
+    "taglia": "L",
+    "sesso": "Uomo",
+    "prezzo": 24.5,
+    "quantita": 5
+  },
+  {
+    "id": 15,
+    "nome": "Pantaloni Tuta Uomo",
+    "immagine": "Pictures/pantaloni_tuta_uomo.jpg",
+    "colore": "Grigio",
+    "taglia": "L",
+    "sesso": "Uomo",
+    "prezzo": 39.0,
+    "quantita": 3
+  },
+  {
+    "id": 16,
+    "nome": "Scarpa Uomo Bianca",
+    "immagine": "Pictures/scarpa_uomo_bianca (2).jpg",
+    "colore": "Bianco",
+    "taglia": "42",
+    "sesso": "Uomo",
+    "prezzo": 69.0,
+    "quantita": 2
+  },
+  {
+    "id": 17,
+    "nome": "Scarpa Uomo Nera",
+    "immagine": "Pictures/scarpa_uomo_bianca.jpg",
+    "colore": "Nero",
+    "taglia": "42",
+    "sesso": "Uomo",
+    "prezzo": 69.0,
+    "quantita": 5
+  },
+  {
+    "id": 18,
+    "nome": "Scarpe Bianche Donna",
+    "immagine": "Pictures/scarpe_bianche_donna.jpg",
+    "colore": "Bianco",
+    "taglia": "38",
+    "sesso": "Donna",
+    "prezzo": 69.0,
+    "quantita": 4
+  },
+  {
+    "id": 19,
+    "nome": "Scarpe Nere Donna",
+    "immagine": "Pictures/scarpe_nere_donna.jpg",
+    "colore": "Nero",
+    "taglia": "38",
+    "sesso": "Donna",
+    "prezzo": 69.0,
+    "quantita": 1
+  },
+  {
+    "id": 20,
+    "nome": "Tuta Donna",
+    "immagine": "Pictures/tuta_donna.jpg",
+    "colore": "Nero",
+    "taglia": "M",
+    "sesso": "Donna",
+    "prezzo": 79.0,
+    "quantita": 3
+  },
+  {
+    "id": 21,
+    "nome": "Vestito Donna",
+    "immagine": "Pictures/vestito_donna.jpg",
+    "colore": "Nero",
+    "taglia": "M",
+    "sesso": "Donna",
+    "prezzo": 89.0,
+    "quantita": 2
+  }
+]
