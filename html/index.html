@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sgherro | Streetwear etico</title>
+  <meta name="description" content="Streetwear etico in materiali ecosostenibili: cotone biologico, fibre riciclate, filiera tracciata.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top">
+    <a class="logo" href="#" aria-label="Sgherro, torna in alto">Sgherro</a>
+    <button id="cart-btn" class="cart-btn" type="button" aria-label="Apri il carrello">
+      Carrello <span id="cart-count" class="cart-count">0</span>
+    </button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Streetwear che non costa la Terra.</h1>
+      <p>Felpe, jeans e magliette in cotone biologico e fibre riciclate. Pochi capi, fatti per durare, da portare ogni giorno.</p>
+      <a class="cta" href="#catalogo">Vai al catalogo</a>
+    </div>
+    <div class="tag" aria-hidden="true">
+      <span class="tag-hole"></span>
+      <strong>Fatto<br>per durare</strong>
+      <small>Cotone biologico<br>Fibre riciclate</small>
+    </div>
+  </section>
+
+  <ul class="materiali">
+    <li><b>Cotone biologico</b> coltivato senza pesticidi di sintesi</li>
+    <li><b>Poliestere riciclato</b> ricavato da bottiglie in PET</li>
+    <li><b>Filiera tracciata</b> laboratori scelti e pagati il giusto</li>
+  </ul>
+
+  <main id="catalogo" class="catalogo">
+    <h2>Il catalogo</h2>
+
+    <div class="filtri">
+      <label class="campo campo-cerca">
+        <span>Cerca</span>
+        <input id="search" type="search" placeholder="Felpa, jeans, nero...">
+      </label>
+      <label class="campo">
+        <span>Sesso</span>
+        <select id="f-sesso"><option value="">Tutti</option></select>
+      </label>
+      <label class="campo">
+        <span>Colore</span>
+        <select id="f-colore"><option value="">Tutti</option></select>
+      </label>
+      <label class="campo">
+        <span>Taglia</span>
+        <select id="f-taglia"><option value="">Tutte</option></select>
+      </label>
+      <button id="reset" class="reset" type="button">Azzera filtri</button>
+    </div>
+
+    <p id="count" class="count" aria-live="polite">Caricamento...</p>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <footer class="foot">
+    <strong>Sgherro</strong>
+    <p>Meno capi, materiali migliori, nessuna scorciatoia.</p>
+  </footer>
+
+  <div id="overlay" class="overlay"></div>
+
+  <aside id="cart" class="cart" aria-hidden="true" aria-label="Carrello">
+    <div class="cart-head">
+      <h2>Il tuo carrello</h2>
+      <button id="cart-close" class="cart-close" type="button" aria-label="Chiudi il carrello">Chiudi</button>
+    </div>
+    <ul id="cart-list" class="cart-list"></ul>
+    <div class="cart-foot">
+      <p id="cart-msg" class="cart-msg" aria-live="polite"></p>
+      <div class="cart-sum"><span>Totale</span><strong id="cart-total">€ 0,00</strong></div>
+      <button id="cart-buy" class="cart-buy" type="button">Acquista</button>
+      <button id="cart-clear" class="cart-clear" type="button">Svuota carrello</button>
+    </div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
